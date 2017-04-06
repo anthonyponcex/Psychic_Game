@@ -1,0 +1,12 @@
+Psuedocode.
+//1. User chooses 1 letter from A-Z selction
+//2. Computer choses random value from A-Z
+//3. Determine if the user selected the correct  letter
+// >if user picks letter that matches computers guess, user wins
+// >if user picks letter that does not match computer guess, guesses left will count down by each try starting with 9
+// >if user gets to 0 guesses, then user loses
+//4. We add to their wins, losses, guesses left tallies
+// >if user selects correct letter, then we add to their wins
+// >if user selects incorrect letter, then we subtract the amount of guesses left
+// >if user guesses 9 times, then we add to their losses
+//5. The user selects 1 letter from A-Z selection to play again
